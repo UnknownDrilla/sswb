@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Mechanismo-Regular';
+    src: url('Mechanismo-Regular.eot');
+    src: url('Mechanismo-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Mechanismo-Regular.svg#Mechanismo-Regular') format('svg'),
+         url('Mechanismo-Regular.ttf') format('truetype'),
+         url('Mechanismo-Regular.woff') format('woff'),
+         url('Mechanismo-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  
+h2 {
+    text-align: center;
+    font-size: 128px;
+    font-family: Mechanismo-Regular; 
+    color: #ffffff;
+} 
+h2 {
+    -webkit-animation-name: mymove;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+        
+    @-webkit-keyframes mymove {
+        0% { top: 0%; }
+        50% { top: 2.5%; }
+        100% { top: 0%; }
+    }
+}

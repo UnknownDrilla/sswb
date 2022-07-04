@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Mechanismo-Regular';
+  src: url('Mechanismo-Regular.eot');
+  src: url('Mechanismo-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Mechanismo-Regular.svg#Mechanismo-Regular') format('svg'),
+       url('Mechanismo-Regular.ttf') format('truetype'),
+       url('Mechanismo-Regular.woff') format('woff'),
+       url('Mechanismo-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
